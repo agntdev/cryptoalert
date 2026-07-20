@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Add coin",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Open the coin selection menu with quick-add buttons for common coins and an option to add a custom ticker"
+            }
+          }
+        ],
+        "send": {
+          "callback": "add_coin:start"
+        }
+      }
+    ]
+  }
+]
