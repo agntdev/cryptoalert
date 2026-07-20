@@ -1,0 +1,20 @@
+[
+  {
+    "name": "My list",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View and manage the current user's watchlist with inline buttons for each coin"
+            }
+          }
+        ],
+        "send": {
+          "callback": "my_list:view"
+        }
+      }
+    ]
+  }
+]
